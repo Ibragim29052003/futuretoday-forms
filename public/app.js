@@ -375,7 +375,7 @@ async function save(publish) {
     );
   } catch (e) {
     toast(e.message, true);
-    renderBuilder();
+    renderEditor();
   } finally {
     busy = false;
   }
